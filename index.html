@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+  <html id="home" class="scrollspy">
+    <head>
+
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!-- My CSS -->
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Images</title>
+    </head>
+    <body>
+
+      <!-- Navbar -->
+      <div class="navbar-fixed">
+        <nav class="navbar grey darken-4">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">STC</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#footer">About</a></li>
+                <li><a href="#image">Images</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+        <!-- Sidenav -->
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#footer">About</a></li>
+          <li><a href="#image">Images</a></li>
+        </ul>
+
+      <!-- akhir navbar -->
+
+
+      <!-- Slider -->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/conor-luddy-IVaKksEZmZA-unsplash.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3><span>STC</span> Images</h3>
+              <h5 class="light grey-text text-lighten-3"><span>Beautiful</span> Images</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3><span>STC</span> Images</h3>
+              <h5 class="light grey-text text-lighten-3"><span>Beautiful</span> Images</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/nadine-primeau-EqVVXFYbD_4-unsplash.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3><span>STC</span> Images</h3>
+              <h5 class="light grey-text text-lighten-3"><span>Beautiful</span> Images</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    
+      <!-- akhir slider -->
+
+      
+
+
+      <!-- Gallery -->
+      <section id="image" class="scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="search-input" type="text" class="validate" placeholder="Search Images" autocomplete="off" autofocus>
+              <a class="waves-effect waves-light btn grey darken-4" id="search-button"><i class="material-icons left">search</i>Search</a>
+            </div>
+          </div>
+
+          <div class="row" id="images">
+            <h3>Popular Images</h3>
+            
+          </div>
+        </div>
+   
+      </section>
+      <!-- akhir gallery -->
+
+     
+
+      <!-- footer -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212121" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,69.3C960,32,1200,32,1320,32L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+      </svg>
+      <section class="footer grey darken-4 scrollspy" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col s8">
+              <h4>Images Background</h4>
+              <p>Why the STC Website ?, because here it provides various kinds of beautiful wallpapers.
+                The STC site also uses the Unsplash API so it produces high quality images</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s4"></div>
+            <div class="col s8">
+              <h4>Who created the STC website?</h4>
+              <p>A student from Indonesia, he created this website after studying material about Public Rest-API</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s8">
+              <h4 class="slider-image">Slider Image By</h4>
+              <ul>
+                <li>Photo by <a href="https://unsplash.com/@nadineprimeau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nadine Primeau</a> on <a href="https://unsplash.com/s/photos/photograph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@opticonor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conor Luddy</a> on <a href="https://unsplash.com/s/photos/camera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@dariuszsankowski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dariusz Sankowski</a> on <a href="https://unsplash.com/s/photos/camera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 copyright">
+              <p>Copyright 2021 by <a href="https://www.instagram.com/apenchu">Steven</a></p>
+              <p>Built with <i class="material-icons">favorite</i></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- akhir footer -->
+
+
+
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+       <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <!-- Jquery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+      <!-- My Script -->
+      <script src="js/script.js"></script>
+
+    </body>
+  </html>
